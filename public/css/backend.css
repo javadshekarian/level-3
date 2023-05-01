@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: black;
+    height: 100vh !important;
+}
+#register{
+    width: 100vw;
+    height: 100vh;
+}
+#registerInputs{
+    width: 250px;
+}
+.btnC{
+    width: 250px;
+}
+.rInp{
+    background-color: #ff000000 !important;
+    border: 0 !important;
+    border-bottom: 1px solid gray !important;
+    padding: 5px 4px 7px 4px !important;
+    color: white !important;
+    width: 250px !important;
+}
+.rInp:focus{
+    outline: none;
+}
+.inpText{
+    color: lightgray;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.registerBtn{
+    border: 1px solid gray;
+    padding: 6px;
+    background-color: black;
+    color: gray;
+}
+.menuContent{
+    width: 320px;
+    color: white;
+    letter-spacing: 1px;
+}
+.cwi{
+    color: white !important;
+}
+.musicsBoxContent{
+    width: 320px;
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+.musicsBoxContent::-webkit-scrollbar{
+    display: none;
+}
+.musicBox{
+    width: 320px;
+    border: 1px solid gray;
+    height: 110px;
+    color: gray;
+}
+.singerPicture{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/amir.jpg);
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-size: cover;
+}
+.cblue{
+    color: blue;
+}
+.fa-trash{
+    color: gray;
+}
+.cp{
+    cursor: pointer;
+}
+.littleInf{
+    width: 130px !important;
+    border: 1px dashed gray !important;
+    padding: 3px !important;
+    height: 28px !important;
+    color: gray !important;
+    background-color: black !important;
+}
+.littleInf:focus{
+    outline: none;
+}
+.saveChange{
+    border: 1px solid gray;
+    padding: 3px 10px 3px 10px;
+    background-color: black;
+    color: gray;
+}
+.btnBoxBackend{
+    height: 100%;
+}
+.fa-play{
+    color: gray !important;
+    font-size: 20px !important;
+}
+.fa-pause{
+    color: gray !important;
+    font-size: 20px !important;
+}
+.w80{
+    width: 80px !important;
+}
+.cgi{
+    color: gray !important;
+}
+.bbci{
+    border-bottom: 2px solid gray !important;
+}
+#uploadMusicL{
+    width: 80px;
+    height: 80px;
+    border: 1px dashed gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+#uploadMusicPictureL{
+    width: 80px;
+    height: 80px;
+    border: 1px dashed gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+#uplods{
+    width: 320px;
+    height: 100%;
+    margin-top: -30px;
+}
+.getFileInformation{
+    border-bottom: 1px solid gray !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+    padding: 0 10px 7px 10px;
+}
+.ml10d{
+    margin-left: calc(10% + 10px);
+}
+.w80d{
+    width: 80%;
+    margin-left: 10%;
+}
+#publicMusicBtn{
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: black;
+    color: gray;
+}
+.mt50{
+    margin-top: 50px;
+}
+.hr{
+    height: calc(100vh - 70px);
+}
+.explainInput{
+    background-color: gold;
+    color: black !important;
+    font-size: 12px;
+    padding: 2px 7px 2px 7px;
+    border-radius: 13px;
+    letter-spacing: 2px;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+#uploadMusicPictureL{
+    background-size: cover;
+}
+#uploadMusicL{
+    background-size: cover;
+}
+.alert{
+    color: red;
+    margin-top: 98px;
+    width: 138px;
+    text-align: center;
+}
+textarea{
+    border: 0;
+    border-bottom: 1px solid gray !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+    padding: 0 10px 7px 10px;
+    height: 58px;
+    background-color: black;
+    color: white;
+}
+textarea:focus{
+    outline: none;
+}
+.hclc{
+    height: calc(100vh - 70px);
+    margin-top: 30px;
+}

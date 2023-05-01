@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'trade';
+    src: url(../font/Trade\ Gothic\ LT\ W01\ Light.ttf);
+}
+@font-face {
+    font-family: 'tradeR';
+    src: url(../font/Trade\ Gothic\ W01\ Cn\ 18.woff.ttf);
+}
+@font-face {
+    font-family: 'lato';
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../font/Roboto-Regular.ttf);
+}
+.fft{
+    font-family: 'trade' !important;
+}
+.fftr{
+    font-family: 'tradeR' !important;
+}
+.ffl{
+    font-family: 'lato';
+}
+.ffr{
+    font-family: 'roboto';
+}

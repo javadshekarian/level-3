@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0;
+    overflow-x: hidden;
+    border: 0;
+}
+.fa{
+    color: white;
+}
+#menu{
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 35px;
+    height: 30px !important;
+}
+.dot{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+.container{
+    width: 100vw;
+    overflow-y: scroll;
+}
+#category{
+    letter-spacing: 2px;
+    height: 100px;
+}
+.selection{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+    height: 3px;
+}
+.selection:hover{
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+.fs11{
+    font-size: 11px !important;
+}
+.textBox{
+    height: 100vh;
+    right: 30px;
+    font-size: 20px;
+    color: gray;
+    position: fixed;
+}
+.cwi{
+    color: white !important;
+}
+#imgContainer{
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 45vw;
+    width: 80vw;
+    background-image: url(../img/img.png);
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(50%);
+}
+.musicTrendBox{
+    width: 130px;
+    height: 150px;
+    border-radius: 7px;
+    border: 1px solid rgb(51, 51, 51);
+    cursor: pointer;
+}
+.musicTrendBox1{
+    width: 150px;
+    height: 170px;
+    border-radius: 7px;
+    border: 1px solid rgb(83, 83, 83);
+    background-color: black;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.musicTrendPicture{
+    width: 170px;
+    height: 190px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    background-image: url(../img/amir.jpg);
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: 5px;
+    filter: grayscale(50%);
+}
+.trend-play{
+    font-size: 32px;
+    -webkit-text-fill-color: rgba(128, 128, 128, 0);
+    -webkit-text-stroke: 3px red;
+}
+.musicTrendPicture:hover .trend-play{
+    -webkit-text-stroke: 3px blue;
+}
+.trendContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#musicPlayerContainer{
+    width: 427px;
+    height: 427px;
+    background-image: url(../img/scale.png);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    filter: brightness(0.5);
+}
+.musicPlayerPlay{
+    font-size: 50px;
+    -webkit-text-fill-color: rgba(128, 128, 128, 0);
+    -webkit-text-stroke: 2px rgb(53, 152, 252);
+}
+canvas{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -14px;
+    margin-left: -1px;
+    width: 242px;
+    transform: rotate(144deg);
+    /* border: 1px solid red; */
+}
+#round{
+    width: 236px;
+    height: 55%;
+    border-radius: 50%;
+    margin-top: -22px;
+    margin-left: -20px;
+}
+.musicInfo{
+    text-align: center;
+}
+.title{
+    width: 130px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+.musicI{
+    width: 300px;
+    font-size: 12px;
+    line-height: 2;
+    color: #afafaf;
+    letter-spacing: 1px;
+    text-align: left;
+}
+footer{
+    margin-top: 130px;
+    width: 90vw;
+    height: 90px;
+    left: 10vw;
+    bottom: 0;
+}
+.lorem{
+    font-size: 12px;
+    line-height: 2;
+    color: #afafaf;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.content{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.word{
+    font-size: 200px;
+    right: 20px;
+    top: 100px;
+    -webkit-text-fill-color: rgba(255, 0, 0, 0);
+    -webkit-text-stroke: 2px teal;
+    font-family: 'roboto';
+}
+.nm{
+    top: 7vw !important;
+    left: 15vw !important;
+    width: 180px;
+}
+.gs50{
+    filter: grayscale(50%);
+}
+input[type="text"]{
+    background-color: #ff000000;
+    border: 0;
+    width: 160px;
+    color: white;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.searchResultBox{
+    width: 200px;
+    margin-top: 7px;
+}
+.searchResult{
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: black;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#musicPictureInAbout{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin-right: 14px;
+    filter: grayscale(50%);
+    background-image: url(../img/music.jpg);
+}
+.ls{
+    letter-spacing: 2px;
+    color: gray !important;
+}
+@media(max-width:768px){
+    #category {
+        width: 70vw;
+    }
+    #imgContainer{
+        height: 80vw !important;
+        margin-top: 30px !important;
+    }
+    #trendContent{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-around !important;
+        margin-top: -110px !important;
+    }
+    .musicTrendBox{
+        width: 100px !important;
+        height: 120px !important;
+        margin-top: 100px !important;
+    }
+    .musicTrendBox1{
+        width: 120px !important;
+        height: 140px !important;
+    }
+    .musicTrendPicture{
+        width: 140px !important;
+        height: 160px !important;
+    }
+    .musicInfo {
+        width: 100vw !important;
+    }
+    .content{
+        margin-left: 0 !important;
+    }
+    .title{
+        margin-left: 30px !important;
+    }
+    .ml30wi{
+        margin-left: 30px;
+        width: 200px;
+    }
+    footer{
+        width: 100vw;
+    }
+    .nm {
+        top: 80px !important;
+        left: 7vw !important;
+        width: 180px;
+    }
+    .trendContainer{
+        width: 140px !important;
+    }
+    .del1{
+        display: none;
+    }
+    #menu {
+        margin-top: 40px !important;
+        margin-left: 13px !important;
+    }
+    #MenuContainer {
+        height: 100vh !important;
+        border: 1px solid rgb(54, 54, 54) !important;
+        margin-top: -70px !important;
+    }
+    .textBox{
+        right: 5px !important;
+    }
+    .gs50{
+        display: none !important;
+    }
+}
+@media(max-width:427px){
+    #musicPlayerContainer{
+        width: 320px !important;
+        height: 320px !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 0 !important;
+    }
+    #round{
+        margin-top: -16px !important;
+        margin-left: -18px !important;
+    }
+    canvas{
+        width: 160px !important;
+    }
+    .gs50{
+        display: none !important;
+    }
+    .del2{
+        display: none;
+    }
+}
+#trendContent{
+    display: flow-root;
+}
+#MenuContainer {
+    width: 0;
+    height:100vh;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: black;
+    margin-top: -65px;
+    overflow-x: scroll;
+}
+#MenuContainer::-webkit-scrollbar{
+    display: none;
+}
+.searchContent {
+    right: 0px;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-top: 80px;
+    width: 200px;
+    margin-left: 16%;
+}
+.tran{
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+}
+.activeMenu{
+    width: 250px !important;
+}

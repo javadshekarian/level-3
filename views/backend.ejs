@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontsAndSetting.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/backend.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="frc dsn" id="menuContent">
+        <div class="menuContent fft frs mt20 fs14">
+            <div class="cwi frs aic">
+                <i class="fa fa-upload cgi"></i>
+                <div class="ml5 cgi cp" id="uploadMenu">upload</div>
+            </div>
+            <div class="cwi frs aic">
+                <i class="fa fa-cog cgi"></i>
+                <div class="ml5 cgi cp" id="settingMenu">setting</div>
+            </div>
+            <div class="searchContent bbci">
+                <input type="text" class="fft w80 cgi" placeholder="search ...">
+                <i class="fa fa-search cgi"></i>
+            </div>
+        </div>
+    </div>
+    <div class="frc hr dsn" id="uploadMusicBox">
+        <div class="fcc hclc">
+            <form action="#" id="uplods" class="mt20 fcs">
+                <div class="frs">
+                    <div class="fcs pr aic">
+                        <input type="file" class="dsn" id="uploadMusic">
+                        <label for="uploadMusic" id="uploadMusicL" class="frc aic">
+                            <i class="fa fa-plus cgi"></i>
+                            <div class="pa explainInput fft">music</div>
+                        </label>
+                        <div class="alert fs12 fft pa dsn"></div>
+                    </div>
+                    <div class="fcs pr aic alertContent">
+                        <input type="file" class="dsn" id="uploadMusicPicture">
+                        <label for="uploadMusicPicture" id="uploadMusicPictureL" class="frc aic pr">
+                            <i class="fa fa-plus cgi"></i>
+                            <div class="pa explainInput fft">image</div>
+                        </label>
+                        <div class="alert fs12 fft pa dsn"></div>
+                    </div>
+                </div>
+                <div>
+                    <textarea id="" cols="20" rows="10" class="fft" placeholder="inter music text ..."></textarea>
+                    <div class="inpText fft fs12 ml10d">music text</div>
+                </div>
+                <div>
+                    <input type="text" id="musicName" class="getFileInformation" placeholder="inter music name">
+                    <div class="inpText fft fs12 ml10d">music name</div>
+                </div>
+                <div>
+                    <input type="text" id="singerName" class="getFileInformation" placeholder="inter singer name">
+                    <div class="inpText fft fs12 ml10d">singer name</div>
+                </div>
+                <div class="frfe w80d mt20">
+                    <button id="publicMusicBtn" class="fft">public</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="frc dsn" id="settingContent">
+        <div class="frc musicsBoxContent fcfs">
+            <form action="#" class="mt20">
+                <div class="musicBox frs aic">
+                    <input type="file" class="dsn" id="Pic0">
+                    <label for="Pic0" class="cp singerPicture frc aic">
+                        <i class="fa fa-plus cblue"></i>
+                    </label>
+                    <div class="fcs">
+                        <input type="text" class="singerName cp fft mt5 littleInf"
+                         placeholder="amir tataloo" spellcheck="false">
+    
+                        <input type="text" class="musicName cp fft mt5 littleInf"
+                         placeholder="shabe 1" spellcheck="false">
+    
+                        <input type="text" class="publicTime cp fft mt5 littleInf"
+                         placeholder="2023/7/12" spellcheck="false">
+                    </div>
+                    <div class="btnBoxBackend fcs aic">
+                        <i class="fa fa-play cp"></i>
+                        <i class="fa fa-trash fs20 cp"></i>
+                        <button class="saveChange cp">OK</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/backend.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/fontsAndSetting.css">
+    <link rel="stylesheet" href="plugin/roundslider.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container pa" id="main" onscroll="hello()">
+        <div class="frc">
+            <div class="frs aic fs11 fft pr" id="category">
+                <div class="selection">HOME</div>
+                <div class="selection del1">NEWS</div>
+                <div class="selection">SINGERS</div>
+                <div class="selection del2">ABOUT</div>
+            </div>
+        </div>
+        <div class="word pa nm">M</div>
+        <div id="imgContainer" class="pr">
+        </div>
+        <div id="trendContent">
+            <div class="frs trendContainer fww">
+            </div>
+            <div class="frs trendContainer fww">
+            </div>
+        </div>
+        <div class="frsb content">
+            <div class="musicInfo">
+                <div class="fft fs20 title">ABOUT</div>
+                <div class="frs ml30wi">
+                    <div class="fcc">
+                        <div id="musicPictureInAbout"></div>
+                    </div>
+                    <div class="musicI ffl" id="musicInfoAbout">
+                        <div class="ml5">majid razavi</div>
+                        <div class="ml5">gorg o mish</div>
+                        <div class="ml5">2023-08-12</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pr fcfe">
+                <div class="word pa gs50">J</div>
+            </div>
+        </div>
+        <div id="musicPlayerContainer" class="frc aic pr">
+            <audio src="music/music.mp3"></audio>
+            <div id="round" class="pa"></div>
+            <canvas width="260" height="260"></canvas>
+            <div id="btnContainer" class="pa">
+                <i class="fa fa-play musicPlayerPlay vi"></i>
+            </div>
+        </div>
+        <footer class="frs fww">
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># footer</div>
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># footer</div>
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># footer</div>
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># lorem text</div>
+            <div class="lorem ffl"># lorem text</div>
+        </footer>
+    </div>
+    <header class="pf">
+        <div id="menu" class="fcs">
+            <div class="frs">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="frs">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="frs">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div id="MenuContainer" class="tran">
+            <div class="searchContent">
+                <input type="text" class="fft ls" spellcheck="false" placeholder="search ..." id="searchInput">
+                <i class="fa fa-search"></i>
+                <div class="pa searchResultBox" id="searchResultBox">
+                    <!-- rearch result box -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="textBox fcs">
+        <div class="rightText dsn">E</div>
+        <div class="rightText fft cwi">E</div>
+        <div class="rightText fft">L</div>
+        <div class="rightText fft">D</div>
+        <div class="rightText fft">O</div>
+        <div class="rightText fft">R</div>
+        <div class="rightText fft">A</div>
+    </div>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="plugin/roundslider.min.js"></script>
+    <script src="js/visualizer.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
